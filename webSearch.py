@@ -11,7 +11,7 @@ from datetime import datetime
 
 
 
-os.chdir(r"C:\Users\Nobel\OneDrive\Desktop\tempGoogleSearch")
+os.chdir(r"working directory")  # Update this path
 names = """Aiman Muhammed Rabi al-Zawahiri  
 Abu Bakr al-Baghdadi  
 Saif al-Adel  
@@ -38,7 +38,7 @@ names = names[:2]
 for name in names:
         
     # Path to Edge WebDriver
-    edgedriver_path = r"C:\Users\Nobel\Downloads\edgedriver_win64 (1)\msedgedriver.exe"  # Update this path
+    edgedriver_path = r"C:\Program Files (x86)\Microsoft\msedgedriver.exe"  # Update this path
     
     options = Options()
     options.add_argument("--start-maximized")
